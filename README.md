@@ -1,4 +1,4 @@
-[<img src="https://raw.githubusercontent.com/Lupus-Metallum/brand/master/images/logo.jpg" width="400"/>][homepage]
+<img src="https://raw.githubusercontent.com/Lupus-Metallum/brand/master/images/logo.jpg" width="400"/>
 
 # terraform-aws-cloudfront-add-index
 
@@ -10,5 +10,6 @@ module "append_index" {
   source             = "Lupus-Metallum/cloudfront-add-index/aws"
   version            = "1.0.0"
   name               = "example"
+  description        = "example description"
 }
 ```
