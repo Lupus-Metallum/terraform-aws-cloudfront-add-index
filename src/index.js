@@ -1,6 +1,4 @@
-'use strict';
-
-exports.handler = (event, context, callback) => {
+function handler(event) {
     /*
      * Append index.html or /index.html if needed
      */
